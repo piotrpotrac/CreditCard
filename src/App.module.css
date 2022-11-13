@@ -1,0 +1,24 @@
+.app {
+  /* text-align: center; */
+  font-family: Space Grotesk, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: 500;
+  display: flex;
+}
+
+.container__cards {
+  margin: auto 0;
+  margin-left: 10rem;
+}
+
+.front {
+  margin-bottom: 2.4rem;
+}
+
+.back {
+  margin-left: 6rem;
+}
+
+.form {
+  /* width: 1px; */
+}

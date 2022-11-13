@@ -1,0 +1,16 @@
+.back {
+  background: url(../../images/bg-card-back.png);
+  width: 447px;
+  height: 245px;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+}
+.cvc {
+  /* margin-top: 3rem; */
+  position: absolute;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+  margin-left: 22.6rem;
+  letter-spacing: 2px;
+}

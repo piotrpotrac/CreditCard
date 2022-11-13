@@ -1,0 +1,28 @@
+.front {
+  background: url(../../images/bg-card-front.png);
+  width: 447px;
+  height: 245px;
+  border-radius: 5px;
+  color: #fff;
+}
+svg {
+  margin-top: 1.8rem;
+  margin-left: 2rem;
+}
+.number {
+  margin-top: 3.7rem;
+  margin-left: 2rem;
+  font-size: 1.7rem;
+  letter-spacing: 4px;
+}
+
+.container {
+  margin: 0 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
