@@ -18,10 +18,12 @@ const CardFront = (props) => {
           stroke="#fff"
         />
       </svg>
-      <div className={styles.number}>1234 5678 9123 0000</div>
+      <div className={styles.number}>{props.cardData.number}</div>
       <div className={styles.container}>
-        <div className={styles.username}>Felicia Leire</div>
-        <div className={styles.date}>02/25</div>
+        <div className={styles.username}>{props.cardData.cardholder}</div>
+        <div
+          className={styles.date}
+        >{`${props.cardData.month}/${props.cardData.year}`}</div>
       </div>
     </div>
   );

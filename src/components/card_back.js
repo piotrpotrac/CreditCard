@@ -5,7 +5,7 @@ import styles from "./card_back.module.css";
 const CardBack = (props) => {
   return (
     <div className={styles.back}>
-      <div className={styles.cvc}>657</div>
+      <div className={styles.cvc}>{props.cvc}</div>
     </div>
   );
 };
