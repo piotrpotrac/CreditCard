@@ -4,6 +4,9 @@
     sans-serif;
   font-weight: 500;
   display: flex;
+  @media and screen (max-width: 768px;) {
+    flex-direction: column;
+  }
 }
 
 .container__cards {

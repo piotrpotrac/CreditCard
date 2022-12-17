@@ -12,6 +12,7 @@ function App() {
     year: "23",
     cvc: "654",
   };
+
   let setCardData;
   [cardData, setCardData] = useState(cardData);
 

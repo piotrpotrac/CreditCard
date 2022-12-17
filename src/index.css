@@ -7,3 +7,11 @@ body {
   background-image: url(../images/bg-main-desktop.png);
   background-repeat: no-repeat;
 }
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 67.5%; /* color: pink; */
+  }
+  body {
+    background-image: url(../images/bg-main-mobile.png);
+  }
+}
