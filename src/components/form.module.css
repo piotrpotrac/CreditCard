@@ -62,11 +62,11 @@ label {
   margin-right: 1rem;
 }
 
-.error:not(:focus-visible) {
+.error {
   display: none;
 }
 
-input:invalid:focus ~ div.error {
+input:invalid:focus + div.error {
   display: block;
   width: 100%;
   color: rgb(255, 82, 82);
