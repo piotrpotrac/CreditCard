@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 1rem; */
 }
 
 input {
@@ -17,7 +16,6 @@ input {
   border: 1px solid hsl(270, 3%, 87%);
   margin-top: 0.6rem;
   margin-bottom: 0.4rem;
-  /* padding-left: 1rem; */
   color: black;
   z-index: 100;
   font-size: 1.2rem;
@@ -42,7 +40,6 @@ label {
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 500;
-  /* letter-spacing: 2px; */
 }
 
 .form__cnt {
@@ -78,7 +75,6 @@ input:invalid:focus ~ div.error {
 }
 
 .button {
-  /* margin-top: 0.4rem; */
   width: 100%;
   height: 3.2rem;
   background-color: hsl(278, 68%, 11%);
@@ -93,4 +89,22 @@ input:invalid:focus ~ div.error {
 }
 .complete p {
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .form {
+    margin: 0 auto;
+    width: 22rem;
+    height: auto;
+    margin-top: 3rem;
+  }
+  label {
+    font-size: 1.1rem;
+  }
+  .complete h2 {
+    font-size: 2rem;
+  }
+  .complete p {
+    font-size: 1.2rem;
+  }
 }

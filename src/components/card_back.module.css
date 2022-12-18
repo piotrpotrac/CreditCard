@@ -5,12 +5,19 @@
   border-radius: 5px;
   color: #fff;
   position: relative;
+  background-size: cover;
 }
 .cvc {
-  /* margin-top: 3rem; */
   position: absolute;
   font-size: 0.9rem;
   margin-top: 7rem;
   margin-left: 22.6rem;
   letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .back {
+    width: calc(447px * 0.63);
+    height: calc(245px * 0.63);
+  }
 }

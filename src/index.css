@@ -1,17 +1,19 @@
+.root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: Space Grotesk, sans-serif;
   font-weight: 500;
-  background-image: url(../images/bg-main-desktop.png);
-  background-repeat: no-repeat;
 }
+
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 67.5%; /* color: pink; */
-  }
-  body {
-    background-image: url(../images/bg-main-mobile.png);
+    font-size: 63%;
   }
 }

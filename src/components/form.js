@@ -13,7 +13,6 @@ const Form = (props) => {
   const setCardDataHandler = (event) => {
     event.preventDefault();
     setIsSubmited(true);
-    console.log(isSubmited);
 
     const cardData = {
       cardholder: cardholderRef.current.value,

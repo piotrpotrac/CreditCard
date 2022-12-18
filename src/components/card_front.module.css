@@ -1,10 +1,7 @@
 .front {
   background: url(../../images/bg-card-front.png);
-
-  width: calc(447rem / 16);
-  height: calc(245rem / 16);
-  /* width: 447px;
-  height: 245px; */
+  width: 447px;
+  height: 245px;
   border-radius: 5px;
   color: #fff;
 }
@@ -31,10 +28,16 @@ svg {
 }
 @media only screen and (max-width: 768px) {
   .front {
-    width: calc(447rem * 67.5%);
-    height: calc(245rem * 67.5%);
+    width: calc(447px * 0.63);
+    height: calc(245px * 0.63);
   }
+
   svg {
-    width: 1rem;
+    transform: scale(0.63);
+  }
+  .number {
+    margin-top: 2.3rem;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
   }
 }

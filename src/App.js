@@ -7,8 +7,8 @@ import { useState } from "react";
 function App() {
   let cardData = {
     cardholder: "Jane Appleseed",
-    number: "1234 5678 9110 0000",
-    month: "02",
+    number: "1234567891100000",
+    month: "2",
     year: "23",
     cvc: "654",
   };
