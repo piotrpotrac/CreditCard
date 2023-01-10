@@ -1,11 +1,11 @@
 .app {
   /* text-align: center; */
-  font-family: Space Grotesk, "Franklin Gothic Medium", "Arial Narrow", Arial,
+  font-family: Space Grotesk, 'Franklin Gothic Medium', 'Arial Narrow', Arial,
     sans-serif;
   font-weight: 500;
   display: flex;
   width: 100vw;
-  background-image: url(../images/bg-main-desktop.png);
+  background-image: url(../public/images/bg-main-desktop.png);
   background-repeat: no-repeat;
 }
 
@@ -25,7 +25,7 @@
   .app {
     width: 375px;
     flex-direction: column;
-    background-image: url(../images/bg-main-mobile.png);
+    background-image: url(../public/images/bg-main-mobile.png);
   }
   .container__cards {
     width: 100%;

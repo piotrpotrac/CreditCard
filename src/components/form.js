@@ -1,18 +1,26 @@
-import React, { useRef, useState } from "react";
-import styles from "./form.module.css";
+import React, { useRef, useState } from 'react'
+import styles from './Form.module.css'
+
+const errorMsgs = {
+  cardholder: 'Get Your full name.',
+  number: 'Wrong format, number only! (16 characters)',
+  month: 'Month between 1-12.',
+  year: 'Incorect year.',
+  cvc: 'Number only 3 characters.',
+}
 
 const Form = (props) => {
-  const cardholderRef = useRef();
-  const numberRef = useRef();
-  const monthRef = useRef();
-  const yearRef = useRef();
-  const cvcRef = useRef();
+  const cardholderRef = useRef()
+  const numberRef = useRef()
+  const monthRef = useRef()
+  const yearRef = useRef()
+  const cvcRef = useRef()
 
-  const [isSubmited, setIsSubmited] = useState(false);
+  const [isSubmited, setIsSubmited] = useState(false)
 
   const setCardDataHandler = (event) => {
-    event.preventDefault();
-    setIsSubmited(true);
+    event.preventDefault()
+    setIsSubmited(true)
 
     const cardData = {
       cardholder: cardholderRef.current.value,
@@ -20,18 +28,10 @@ const Form = (props) => {
       month: monthRef.current.value,
       year: yearRef.current.value,
       cvc: cvcRef.current.value,
-    };
+    }
 
-    props.onSubmitForm(cardData);
-  };
-
-  const errorMsgs = {
-    cardholder: "Get Your full name.",
-    number: "Wrong format, number only! (16 characters)",
-    month: "Month between 1-12.",
-    year: "Incorect year.",
-    cvc: "Number only 3 characters.",
-  };
+    props.onSubmitForm(cardData)
+  }
 
   return (
     <>
@@ -136,7 +136,7 @@ const Form = (props) => {
         </form>
       )}
     </>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form

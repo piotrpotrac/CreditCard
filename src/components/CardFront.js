@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./card_front.module.css";
+import styles from './CardFront.module.css'
 
 const CardFront = (props) => {
   const cardNumb = props.cardData.number.match(/.{1,4}/g).join(" ");
