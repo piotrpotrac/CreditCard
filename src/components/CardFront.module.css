@@ -4,6 +4,7 @@
   height: 245px;
   border-radius: 5px;
   color: #fff;
+  margin-bottom: 2.4rem;
 }
 svg {
   margin-top: 1.8rem;
@@ -30,6 +31,9 @@ svg {
   .front {
     width: calc(447px * 0.63);
     height: calc(245px * 0.63);
+    margin-bottom: 1rem;
+    transform: translateY(13rem) translateX(-2rem);
+    z-index: 110;
   }
 
   svg {

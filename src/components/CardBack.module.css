@@ -6,6 +6,7 @@
   color: #fff;
   position: relative;
   background-size: cover;
+  margin-left: 6rem;
 }
 .cvc {
   position: absolute;
@@ -19,5 +20,7 @@
   .back {
     width: calc(447px * 0.63);
     height: calc(245px * 0.63);
+    margin-left: 0;
+    transform: translateY(-13rem) translateX(2rem);
   }
 }

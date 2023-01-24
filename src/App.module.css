@@ -14,13 +14,6 @@
   margin-left: 10rem;
 }
 
-.front {
-  margin-bottom: 2.4rem;
-}
-
-.back {
-  margin-left: 6rem;
-}
 @media only screen and (max-width: 768px) {
   .app {
     width: 375px;
@@ -34,16 +27,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .front {
-    margin-bottom: 1rem;
-    transform: translateY(13rem) translateX(-2rem);
-    z-index: 110;
-  }
-
-  .back {
-    margin-left: 0;
-    transform: translateY(-13rem) translateX(2rem);
   }
 }

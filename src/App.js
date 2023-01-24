@@ -1,20 +1,20 @@
-import styles from './App.module.css'
+import { useState } from 'react'
 import CardFront from './components/CardFront'
 import CardBack from './components/CardBack'
 import Form from './components/Form'
-import { useState } from 'react'
+
+import styles from './App.module.css'
+
+const cardDataExample = {
+  cardHolder: 'Jane Appleseed',
+  number: '1234567891100000',
+  month: '2',
+  year: '23',
+  cvc: '654',
+}
 
 function App() {
-  let cardData = {
-    cardholder: 'Jane Appleseed',
-    number: '1234567891100000',
-    month: '2',
-    year: '23',
-    cvc: '654',
-  }
-
-  let setCardData
-  ;[cardData, setCardData] = useState(cardData)
+  const [cardData, setCardData] = useState(cardDataExample)
 
   const changeDataHandler = (data) => {
     setCardData(data)
@@ -23,14 +23,9 @@ function App() {
   return (
     <div className={styles.app}>
       <div className={styles.container__cards}>
-        <div className={styles.front}>
-          <CardFront cardData={cardData} />
-        </div>
-        <div className={styles.back}>
-          <CardBack cvc={cardData.cvc} />
-        </div>
+        <CardFront cardData={cardData} />
+        <CardBack cvc={cardData.cvc} />
       </div>
-
       <Form onSubmitForm={changeDataHandler}></Form>
     </div>
   )

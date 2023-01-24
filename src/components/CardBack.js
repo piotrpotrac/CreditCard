@@ -2,10 +2,10 @@ import React from 'react'
 
 import styles from './CardBack.module.css'
 
-const CardBack = (props) => {
+const CardBack = ({ cvc }) => {
   return (
     <div className={styles.back}>
-      <div className={styles.cvc}>{props.cvc}</div>
+      <div className={styles.cvc}>{cvc}</div>
     </div>
   )
 }
