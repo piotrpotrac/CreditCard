@@ -1,9 +1,10 @@
+@import '../vars.css';
 .back {
   background: url(../../public/images/bg-card-back.png);
   width: 447px;
   height: 245px;
   border-radius: 5px;
-  color: #fff;
+  color: var(--color-white);
   position: relative;
   background-size: cover;
   margin-left: 6rem;
@@ -18,9 +19,13 @@
 
 @media only screen and (max-width: 768px) {
   .back {
-    width: calc(447px * 0.63);
-    height: calc(245px * 0.63);
+    width: calc(447px * var(--scale));
+    height: calc(245px * var(--scale));
     margin-left: 0;
     transform: translateY(-13rem) translateX(2rem);
+  }
+
+  .cvc {
+    margin-top: 7.3rem;
   }
 }

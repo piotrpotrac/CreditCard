@@ -1,0 +1,14 @@
+:root {
+  --scale: calc(2 / 3);
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey-light: hsl(270, 3%, 87%);
+  --color-bg-dark: hsl(278, 68%, 11%);
+  --color-red: rgb(255, 82, 82);
+
+  --linear-gradient: linear-gradient(
+    to right,
+    hsl(249, 99%, 64%),
+    hsl(278, 94%, 30%)
+  );
+}

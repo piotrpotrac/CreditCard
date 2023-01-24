@@ -4,6 +4,7 @@ const SuccesInfo = ({ setIsSubmited }) => {
   return (
     <div className={`${styles.form} ${styles.complete}`}>
       <svg
+        className={styles.sign}
         width="80"
         height="80"
         fill="none"

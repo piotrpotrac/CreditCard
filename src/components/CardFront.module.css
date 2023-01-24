@@ -1,14 +1,14 @@
+@import '../vars.css';
 .front {
   background: url(../../public/images/bg-card-front.png);
   width: 447px;
   height: 245px;
   border-radius: 5px;
-  color: #fff;
+  color: var(--color-white);
   margin-bottom: 2.4rem;
 }
 svg {
-  margin-top: 1.8rem;
-  margin-left: 2rem;
+  padding: 2rem 0 0 2rem;
 }
 .number {
   margin-top: 3.7rem;
@@ -29,15 +29,15 @@ svg {
 }
 @media only screen and (max-width: 768px) {
   .front {
-    width: calc(447px * 0.63);
-    height: calc(245px * 0.63);
+    width: calc(447px * var(--scale));
+    height: calc(245px * var(--scale));
     margin-bottom: 1rem;
     transform: translateY(13rem) translateX(-2rem);
     z-index: 110;
   }
 
   svg {
-    transform: scale(0.63);
+    transform: scale(var(--scale));
   }
   .number {
     margin-top: 2.3rem;

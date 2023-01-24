@@ -50,7 +50,7 @@ This project is deployed automiticaly in netlify server from github repository.
 
 - 'npm run test'
 
-Launches the test runner in the interactive watch mode. See the section about running tests for more information.
+Launches the test runner in the interactive watch mode.
 
 - 'npm run eject'
 
@@ -58,15 +58,30 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 more infos (https://create-react-app.dev/docs/available-scripts/)
 
+- `npm run prettier`
+
+Prettier is an opinionated code formatter with support for:
+-JavaScript (including experimental features)
+-TypeScript
+-CSS, Less, and SCSS
+-HTML
+-JSON
+
+It removes all original styling\* and ensures that all outputted code conforms to a consistent style. (See this blog post).
+
+By defaul this command formate only a src folder.
+
+More info about prettier ( https://prettier.io/ )
+
 # The challenge
 
 Users should be able to:
 
-- Fill in the form and see the card details update in real-time
+- Fill in the form and see the card details update after subbmit form in real-time
 - Receive error messages when the form is submitted if:
   - Any input field is empty
   - The card number, expiry date, or CVC fields are in the wrong format
-- View the optimal layout depending on their device's screen size
+- View the optimal layout depending on their device's screen size (view for 2 screens)
 - See hover, active, and focus states for interactive elements on the page
 
 # Links
@@ -75,12 +90,12 @@ Users should be able to:
 
 # Built with
 
+- [React](https://reactjs.org/) - JS library
+- [Css Module] - CSS Modules Stylesheet
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Desktop-first workflow
-- [Styled Components] - CSS Modules Stylesheet
-- [React](https://reactjs.org/) - JS library
 
 # Author
 

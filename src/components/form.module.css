@@ -1,6 +1,7 @@
+@import '../vars.css';
 .form {
   margin-left: 10rem;
-  width: 23rem;
+  min-width: 23rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@ input {
   height: 2.5rem;
   cursor: pointer;
   border-radius: 5px;
-  border: 1px solid hsl(270, 3%, 87%);
+  border: 1px solid var(--color-grey-light);
   margin-top: 0.6rem;
   margin-bottom: 0.4rem;
   color: black;
@@ -21,15 +22,15 @@ input {
   font-size: 1.2rem;
 }
 input::placeholder {
-  color: hsl(270, 3%, 87%);
+  color: var(--color-grey-light);
   font-weight: 300;
 }
 input:focus {
   outline: none !important;
   border: solid 1px transparent;
   border-radius: 5px;
-  background-image: linear-gradient(white, white),
-    linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+  background-image: linear-gradient(var(--color-white), var(--color-white)),
+    var(--linear-gradient);
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
@@ -69,7 +70,7 @@ label {
 input:invalid:focus + div.error {
   display: block;
   width: 100%;
-  color: rgb(255, 82, 82);
+  color: var(--color-red);
   margin-bottom: 1.4rem;
   font-size: 0.8rem;
 }
@@ -77,8 +78,8 @@ input:invalid:focus + div.error {
 .button {
   width: 100%;
   height: 3.2rem;
-  background-color: hsl(278, 68%, 11%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--color-bg-dark);
+  color: var(--color-white);
   font-size: 1rem;
   letter-spacing: 1px;
   border-radius: 5px;
