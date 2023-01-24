@@ -1,9 +1,5 @@
 {
   "short_name": "Credit Card",
   "name": "Interactive Credit Card",
-  "icons": [],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "standalone"
 }
