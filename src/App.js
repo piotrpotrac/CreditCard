@@ -26,7 +26,7 @@ function App() {
         <CardFront cardData={cardData} />
         <CardBack cvc={cardData.cvc} />
       </div>
-      <Form onSubmitForm={changeDataHandler}></Form>
+      <Form onSubmitForm={changeDataHandler} />
     </div>
   )
 }
