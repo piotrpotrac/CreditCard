@@ -79,8 +79,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Desktop-first workflow
-- [React](https://reactjs.org/) - JS library
 - [Styled Components] - CSS Modules Stylesheet
+- [React](https://reactjs.org/) - JS library
 
 # Author
 

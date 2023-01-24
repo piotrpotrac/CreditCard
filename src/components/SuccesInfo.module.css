@@ -1,0 +1,45 @@
+.form {
+  margin-left: 10rem;
+  width: 23rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.complete h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.complete p {
+  margin-bottom: 2rem;
+}
+
+.button {
+  width: 100%;
+  height: 3.2rem;
+  background-color: hsl(278, 68%, 11%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form {
+    margin: 0 auto;
+    width: 22rem;
+    height: auto;
+    margin-top: 3rem;
+  }
+
+  .complete h2 {
+    font-size: 2rem;
+  }
+
+  .complete p {
+    font-size: 1.2rem;
+  }
+}
