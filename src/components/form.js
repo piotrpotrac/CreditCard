@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from 'react'
+import { useState, useReducer } from 'react'
 import SuccesInfo from './SuccesInfo'
 
 import styles from './Form.module.css'
