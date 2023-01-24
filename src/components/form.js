@@ -1,6 +1,7 @@
 import React, { useState, useReducer } from 'react'
-import styles from './Form.module.css'
 import SuccesInfo from './SuccesInfo'
+
+import styles from './Form.module.css'
 
 const errorMsgs = {
   cardholder: 'Get Your full name.',
